@@ -43,7 +43,28 @@ for(let  i=0; i < items.length; i++){
     items[i].style.backgroundColor = '#358946';
 }
 
+let li = document.getElementsByTagName('li');
+console.log(li);
+li[1].style.backgroundColor = 'red';
+li[3].textContent= 'hello from here too' ;
 
 
+for( let i = 0; i < li.length; i++){
+    li[i].style.fontSize = 'bold';
+}
 
 
+//Query Selector 
+
+let headerSecond = document.querySelector('#header')
+console.log(header);
+headerSecond.style.borderBottom = 'solid 10px blue';
+
+//let lastItem =  document.querySelector('.items: last-child');
+///lastItem.style.color =  'blue';
+
+
+//QuerySelectiorAll 
+
+let title= document.querySelectorAll('.body');
+console.log(title);
