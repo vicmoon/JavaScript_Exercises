@@ -50,7 +50,7 @@ li[3].textContent= 'hello from here too' ;
 
 
 for( let i = 0; i < li.length; i++){
-    li[i].style.fontSize = 'bold';
+    li[i].style.listStyle = 'none';
 }
 
 
@@ -61,7 +61,7 @@ console.log(header);
 headerSecond.style.borderBottom = 'solid 10px blue';
 
 //let lastItem =  document.querySelector('.items: last-child');
-///lastItem.style.color =  'blue';
+//lastItem.style.color =  'blue';
 
 
 //QuerySelectiorAll 
